@@ -19,6 +19,8 @@
  *  EINDE
  *  Als speler LEDS niet bereikt gaan ze uit en is het game over. 
  *  Anders duurt het nummer een minuut lang. 
+ *  -Speler krijgt score
+ *  -Nummer speelt opnieuw af na het spelen, als je noten mist dan hoor je dat daara terug 
  *  
 
  *   
