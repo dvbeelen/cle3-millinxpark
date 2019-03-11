@@ -18,7 +18,7 @@
  *  
  *  EINDE
  *  Als speler LEDS niet bereikt gaan ze uit en is het game over. 
- *  Anders duurt het nummer een minuut lang. Speler probeert het nummer zo direct mogelijk te doen. 
+ *  Anders duurt het nummer een minuut lang. 
  *  
 
  *   
