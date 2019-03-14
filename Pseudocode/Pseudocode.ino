@@ -1,5 +1,5 @@
 /* START
- *  Druksensor registreert persoon aanwezigheid
+ *  Druksensor registreert persoon aanwezigheid / Knop wordt ingedrukt om te starten
  *  Arduino gaat aan
  *  LEDs en geluid gaan aan om aan te geven dat het aanstaat
  *  
