@@ -1,38 +1,54 @@
-//Arduino pins are assigned a variable and a number
-  #define buttonpin 13
-  #define led 11
-  #define led2 10
-  #define led3 9
-  #define led4 8
-  #define led5 7
-  int buttonState = 0; //Starting state of the button is declared here
+int led1 = 10;
+int led2 = 9;
+int led3 = 11;
+int led4 = 7;
+int led5 = 6;
+int button = 4;
 
-//Pins are declared as input or output
-  void setup(){
-  pinMode(ledPin, ledPin2, ledPin3, ledPin4, ledPin5 OUTPUT); //LED-pins are declared as output
-  pinMode(buttonPin, INPUT); //Button-pin is declared as output
+/*Leds assigned to pins */
+void setup()
+{
+  pinMode(led1,OUTPUT);
+  pinMode(led2,OUTPUT);
+  pinMode(led3,OUTPUT);
+  pinMode(led4,OUTPUT);
+  pinMode(led5,OUTPUT);
+  pinMode(button,INPUT);
 }
 
-// Lights turn on when button pressed
 
+/*Leds blink one by one */
+void loop(){
+ digitalWrite(led1,HIGH);
+  delay(500);
+ digitalWrite(led1,LOW);
+  delay(500);
+ digitalWrite(led2,HIGH);
+  delay(500);
+ digitalWrite(led2,LOW);
+  delay(500);
+ 
+  delay(500);
+ digitalWrite(led4,HIGH);
+  delay(500);
+ digitalWrite(led4,LOW);
+  delay(500);
+ digitalWrite(led5,HIGH);
+  delay(500);
+ digitalWrite(led5,LOW);
+  delay(500);
+}
+
+/*
+ * Button controlled LEDS
 void loop()
 {
-  //check button press here, unpressed is 0, pressed is 255
-  if(digitalRead(buttonPin) == LOW)
-  {
-     if(buttonstate == 0)
-     {
-         buttonstate = 255;
-     }
-     else
-     {
-         buttonstate = 0;
-     }
+  if (digitalRead(button) == HIGH){
+    digitalWrite(led, HIGH);
   }
-
-  if(buttonstate > 0)
-  {
-     digitalWrite(led,led2,led3,led4,led5 HIGH);
-     delayMicroseconds(3000000);
-     digitalWrite(led,led2,led3,led4,led5);
+  else{
+    digitalWrite(led,LOW);
   }
+  
+}
+*/
