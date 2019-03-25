@@ -1,5 +1,51 @@
-/* Text-styling */
+body{
+    margin: 0px;
+    background-color: #45A29E;
+}
+header{
+    background-color: #1F2833;
+    color: #C5C6C7;
+    font-family: Baloo Chettan;
+    text-align: center;
+    width: 100%;
+}
+h2{
+    color: #0B0C10;
+    font-family: Baloo Chettan;
+    text-align: center;
+}
+#tutorial{
+    text-align: center;
+    background-color: white;
+    border: 4px;
+    border-style: solid;
+    border-color: #1F2833;
+    border-radius: 10px;
+    font-family: Quicksand;
+    width: 50%;
+    padding-top: 5px;
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%; 
+}
 
-/* Image styling */
+.tutorial_pic{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
-/* Background styling */
+button{
+    background-color: #1F2833;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #C5C6C7;
+    color: #C5C6C7;
+    font-family: Baloo Chettan;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
