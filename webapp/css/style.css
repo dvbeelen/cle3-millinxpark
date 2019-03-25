@@ -2,13 +2,8 @@ body{
     margin: 0px;
     background-color: #45A29E;
 }
-header{
-    background-color: #1F2833;
-    color: #C5C6C7;
-    font-family: Baloo Chettan;
-    text-align: center;
-    width: 100%;
-}
+
+/* Global */
 h2{
     color: #0B0C10;
     font-family: Baloo Chettan;
@@ -20,6 +15,17 @@ p{
     margin-left: 25%;
     margin-right: 25%;
 }
+
+/* Header */
+header{
+    background-color: #1F2833;
+    color: #C5C6C7;
+    font-family: Baloo Chettan;
+    text-align: center;
+    width: 100%;
+}
+
+/* Slider */
 #slider_nav{
     text-align: center;
 }
