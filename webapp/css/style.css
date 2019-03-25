@@ -4,17 +4,11 @@ html {
 
 body{
     margin: 0px;
-    background-color: #45A29E;
+    background-color: #ECECEC;
     overflow-y: hidden; 
 }
 
-header{
-    background-color: #1F2833;
-    color: #C5C6C7;
-    font-family: Baloo Chettan;
-    text-align: center;
-    width: 100%;
-}
+/* Global */
 h2{
     color: #0B0C10;
     font-family: Baloo Chettan;
@@ -29,7 +23,7 @@ p{
 
 /* Header */
 header{
-    background-color: #1F2833;
+    background-color: #5DA2D5;
     color: #C5C6C7;
     font-family: Baloo Chettan;
     text-align: center;
@@ -83,6 +77,23 @@ header{
     flex-shrink: 0;
     height: 100%;
   }
+
+#slide-1 {
+    background-color: #F3D250;
+}
+
+#slide-2 {
+    background-color: rgb(102, 187, 110);
+}
+
+#slide-3 {
+    background-color: #90CCF4;
+}
+
+#slide-4 {
+    background-color: #F78888;
+    F78888
+}
 
 .tutorial_pic{
     width: 400px;
