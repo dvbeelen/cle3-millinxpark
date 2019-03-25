@@ -1,7 +1,13 @@
+html {
+    overflow: auto;
+}
+
 body{
     margin: 0px;
     background-color: #45A29E;
+    overflow-y: hidden; 
 }
+
 header{
     background-color: #1F2833;
     color: #C5C6C7;
@@ -58,7 +64,7 @@ p{
     margin-bottom: 10px;
     display: flex;
     overflow-x: auto;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 .slide {
@@ -68,8 +74,8 @@ p{
   }
 
 .tutorial_pic{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin-left: 10px;
     margin-right: 10px;
 }
