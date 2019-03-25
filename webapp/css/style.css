@@ -14,15 +14,35 @@ h2{
     font-family: Baloo Chettan;
     text-align: center;
 }
+
 p{
-    width: 75%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
-#tutorial-slider{
+#slider_nav{
+    text-align: center;
+}
+
+#slider_nav > a{
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 0.5rem 0;
+    position: relative;
+}
+
+#tutorial_slider{
     text-align: center;
     background-color: white;
     border: 4px;
     border-style: solid;
-    height: 600px;
+    height: 80%;
     border-color: #1F2833;
     border-radius: 10px;
     font-family: Quicksand;
@@ -31,6 +51,7 @@ p{
     padding: 10px;
     margin-left: 25%;
     margin-right: 25%;
+    margin-bottom: 10px;
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth; 
