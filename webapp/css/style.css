@@ -14,7 +14,10 @@ h2{
     font-family: Baloo Chettan;
     text-align: center;
 }
-#tutorial{
+p{
+    width: 75%;
+}
+#tutorial-slider{
     text-align: center;
     background-color: white;
     border: 4px;
@@ -27,8 +30,17 @@ h2{
     padding-top: 5px;
     padding: 10px;
     margin-left: 25%;
-    margin-right: 25%; 
+    margin-right: 25%;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth; 
 }
+
+.slide {
+    width: 100%;
+    flex-shrink: 0;
+    height: 100%;
+  }
 
 .tutorial_pic{
     width: 200px;
