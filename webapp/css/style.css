@@ -39,7 +39,7 @@ header{
 /* Slider */
 #slider_nav{
     text-align: center;
-}
+} 
 
 #slider_nav > a{
     display: inline-flex;
@@ -56,7 +56,7 @@ header{
     border-style: solid;
     border-color: #1F2833;
     font-family: Quicksand;
-}
+} 
 
 #tutorial_slider{
     text-align: center;
@@ -85,7 +85,7 @@ header{
   }
 
 .tutorial_pic{
-    width: 300px;
+    width: 400px;
     height: 300px;
     margin-left: 10px;
     margin-right: 10px;
