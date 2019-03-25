@@ -26,6 +26,17 @@ p{
     margin-left: 25%;
     margin-right: 25%;
 }
+
+/* Header */
+header{
+    background-color: #1F2833;
+    color: #C5C6C7;
+    font-family: Baloo Chettan;
+    text-align: center;
+    width: 100%;
+}
+
+/* Slider */
 #slider_nav{
     text-align: center;
 }
