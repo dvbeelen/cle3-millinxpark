@@ -92,6 +92,10 @@ header{
     background-color: #F78888;
 }
 
+#gameStart{
+    background-color: blueviolet;
+}
+
 .tutorial_pic{
     width: 400px;
     height: 300px;
@@ -144,7 +148,3 @@ button{
     }
 }
 
-/*  width: 400px;
-    height: 300px;
-    margin-left: 10px;
-    margin-right: 10px; */
