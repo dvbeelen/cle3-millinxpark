@@ -1,3 +1,6 @@
+
+//Slider navigation
+//This function brings the user on click from the startscreen to the screen where they can pick a song.
 function pickSong() {
     const currentDiv = document.getElementById('slide-4');
     const nextDiv = document.getElementById('songSelect');
@@ -7,7 +10,8 @@ function pickSong() {
 
     currentDiv.appendChild(clone);
 }
- 
+
+//This function brings the user on click from the screen where they can pick a song to the gamescreen.
  function gameStart() {
         const currentDiv = document.getElementById('songSelect');
         const nextDiv = document.getElementById('game');
@@ -30,3 +34,5 @@ function showQuote(data){
 }
 
 
+
+//Game
