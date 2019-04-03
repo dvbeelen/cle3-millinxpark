@@ -120,6 +120,12 @@ button{
 }
 
 /* Media Queries */
+@media(max-width: 1024px){
+    .tutorial_pic{
+        display: none;
+    }
+}
+
 @media(max-width: 833px){
     #tutorial_slider{
         width: 75%;
@@ -139,6 +145,11 @@ button{
         width: 100%;
         max-width: 220px;
         height: auto;
+    }
+    p{
+        width: 75%;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
     }
 }
 
