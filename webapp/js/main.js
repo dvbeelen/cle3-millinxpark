@@ -30,6 +30,20 @@ function nextToSongs() {
         while (currentDiv.firstChild) currentDiv.firstChild.remove();
     
         currentDiv.appendChild(clone);
+    }
+
+let field = document.getElementById("quote"); 
+
+fetch("https://api.kanye.rest")
+    .then(data => data.json())
+    .then(data => showQuote(data))
+    .catch(error => console.log(error))
+
+function showQuote(data){
+    field.innerHTML = data.quote
+}
+
+
 
         let score = document.getElementById("score").innerHTML = gameScore;
     }
