@@ -1,9 +1,20 @@
- function gameStart (id) {
-        const main = document.getElementById('slide-4');
-        const div = document.getElementById('game');
-        const clone = div.cloneNode(true);
+function pickSong() {
+    const currentDiv = document.getElementById('slide-4');
+    const nextDiv = document.getElementById('songSelect');
+    const clone = nextDiv.cloneNode(true);
+
+    while (currentDiv.firstChild) currentDiv.firstChild.remove();
+
+    currentDiv.appendChild(clone);
+}
+ 
+ function gameStart() {
+        const currentDiv = document.getElementById('songSelect');
+        const nextDiv = document.getElementById('game');
+        const clone = nextDiv.cloneNode(true);
     
-        while (main.firstChild) main.firstChild.remove();
+        while (currentDiv.firstChild) currentDiv.firstChild.remove();
     
-        main.appendChild(clone);
+        currentDiv.appendChild(clone);
     }
+
