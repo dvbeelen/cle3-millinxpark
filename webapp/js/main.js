@@ -1,14 +1,5 @@
 let gameScore = 690;
 
-//API connection
-import Unsplash, { toJson } from "unsplash-js";
-
-const unsplash = new Unsplash({
-  applicationId: "3fea5ddfe37456e9398935c41ba6ec2d556d70aea53af1ddc80279ae9c1f8a1f",
-  secret: "3477463452e420e5b643184c1c2cdd2835464b892ab7bb2eccb9cd4754a1e7e4"
-});
-
-
 //Slider navigation
 //This function brings the user on click from the startscreen to the screen where they can pick a song.
 function nextToSongs() {
@@ -32,18 +23,4 @@ function nextToSongs() {
         currentDiv.appendChild(clone);
     }
 
-let field = document.getElementById("quote"); 
-
-fetch("https://api.kanye.rest")
-    .then(data => data.json())
-    .then(data => showQuote(data))
-    .catch(error => console.log(error))
-
-function showQuote(data){
-    field.innerHTML = data.quote
-}
-
-
-
-        let score = document.getElementById("score").innerHTML = gameScore;
-    }
+    
