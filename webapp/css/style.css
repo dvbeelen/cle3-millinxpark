@@ -113,10 +113,16 @@ button{
     
 }
 
+table{
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 30%;
+}
+
 .songPics{
     width: 200px; height: 200px;
     float: left;
-    padding-left: 10px;
+    padding: 5px;
 }
 
 /* Media Queries */

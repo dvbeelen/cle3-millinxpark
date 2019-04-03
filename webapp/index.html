@@ -56,7 +56,7 @@
                         <h2>Piano Party</h2>
                         <p> Hier kan je het spel starten door eerst een deuntje uit te kiezen. Daarna moet je alleen op start klikken en zal het spel beginnen. 
                         </p>
-                        <button id="startGame" onclick="pickSong()"> Start het spel </button>
+                        <button id="startGame" onclick="nextToSongs()"> Start het spel </button>
                 </div>
 
                 <div id = "songSelect"> 
@@ -72,14 +72,14 @@
                             
                         </tr>
                     </table>
-                    <button id="chooseSong" onclick="gameStart()"> Kies nummer </button>
+                    <button id="chooseSong" onclick="nextToGame()"> Kies nummer </button>
                 </div>
 
                 <div id = "game"> 
                     <h2> De game komt hier </h2>
                     <br> <br>
                     <h3> Score:</h3>
-                    <p> 0 </p>
+                    <p id="score"> 0 </p>
                 </div>
         </div>
         <script type="text/javascript" src='js/main.js'></script> 
