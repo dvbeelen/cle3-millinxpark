@@ -21,6 +21,11 @@ p{
     margin-right: 25%;
 }
 
+#btnLink{
+    text-decoration: none;
+    color: white;
+}
+
 /* Header */
 header{
     background-color: #5DA2D5;
@@ -92,6 +97,16 @@ header{
     background-color: #F78888;
 }
 
+#songSelect{
+    background-color: #90CCF4;
+}
+#game{
+    background-color: rgb(102, 187, 110);
+}
+#resultScreen{
+    background-color: #F3D250;
+}
+
 .tutorial_pic{
     width: 400px;
     height: 300px;
@@ -115,6 +130,7 @@ button{
 
 table{
     width: 50%;
+    margin-top: 5%;
     margin-left: 20%;
     margin-right: 30%;
 }
