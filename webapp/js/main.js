@@ -16,6 +16,7 @@ gameEnd.addEventListener("click", function gameEnd(){
     document.getElementById("endScore").innerHTML = gameScore
 })
 
+//When players chooses song in the songSelect-screen, that choice is saved and stored on the game- and resultscreen
 function saveChoice(){
   if (p == 1){
     gameSong[0].src = pickGenre[0].src;
