@@ -65,29 +65,29 @@
                 <div class="slide" id="songSelect"> 
                     <table>
                         <tr>
-                            <td><img class="pickGenre" onclick="storeGenre()" src=""></td>
-                            <td><img class="pickGenre" onclick="storeGenre()" src=""></td>   
+                            <td><img class="pickGenre" onclick="p = 1" src=""></td>
+                            <td><img class="pickGenre" onclick="p = 2" src=""></td>   
                         </tr>
                         <tr>
                             <td><p> Klassiek</p></td>
                             <td><p> Rock</p></td>
                         </tr>
                         <tr>
-                            <td><img class="pickGenre" onclick="storeGenre()" src=""></td>
-                            <td><img class="pickGenre" onclick="storeGenre()" src=""></td> 
+                            <td><img class="pickGenre" onclick="p = 3" src=""></td>
+                            <td><img class="pickGenre" onclick="p = 4" src=""></td> 
                         </tr>
                         <tr>
                             <td><p> Hip hop </p></td>
                             <td><p> Game muziek</p></td>
                         </tr>
                     </table>
-                    <button id="chooseSong"> <a href="#game"> Kies nummer </a></button>
+                    <button id="chooseSong" onclick="saveChoice()"> <a href="#game"> Kies nummer </a></button>
                 </div>
 
                 <div class="slide" id ="game"> 
                     <h2> De game komt hier </h2>
                     <br> <br>
-                    <img id = "gameSong" src="images/placeholder.gif">
+                    <img class = "gameSong" src="">
                     <h3> Score:</h3>
                     <p id="score"> 0 </p>
                     <button id = "endGame"> <a href="#resultScreen"> Zie je score! </a></button>
@@ -96,7 +96,7 @@
                 <div class="slide" id ="resultScreen"> 
                     <h2> Gefeliciteerd, je hebt de highscore!!</h2>
                     <br> <br>
-                    <img id = "gameSong" src="images/placeholder.gif">
+                    <img class = "gameSong" src="">
                     <h3> Jouw Score:</h3>
                     <p id="endScore"> 0 </p>
                 </div>
