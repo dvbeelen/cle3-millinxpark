@@ -167,6 +167,13 @@ table{
     .pickGenre{
         width: 150px; height: 150px;
     }
+
+    table{
+        width: 33%;
+        margin-top: 5%;
+        margin-left: 40%;
+        margin-right: 27%;
+    }
 }
 
 @media(max-width: 833px){
@@ -180,6 +187,13 @@ table{
         width: 100%;
         max-width: 310px;
         height: auto;
+    }
+
+    table{
+        width: 50%;
+        margin-top: 5%;
+        margin-left: 23%;
+        margin-right: 22%;
     }
 }
 
@@ -197,6 +211,13 @@ table{
     .pickGenre{
         width: 100px; height: 100px;
     }
+
+    table{
+        width: 50%;
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-right: 35%;
+    }
 }
 
 @media(max-width: 320px){
@@ -207,6 +228,13 @@ table{
     }
     .pickGenre{
         width: 75px; height: 75px;
+    }
+
+    table{
+        width: 50%;
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-right: 35%;
     }
 }
 
