@@ -65,12 +65,12 @@
                     <h2> Kies een nummer</h2>
                     <table>
                         <tr>
-                            <td><img class="songPics" src="images/placeholder.gif"></td>
-                            <td><img class="songPics" src="images/placeholder.gif"></td> 
+                            <td><img class="pickGenre" onclick="storeGenre()" src="images/placeholder.gif"></td>
+                            <td><img class="pickGenre" onclick="storeGenre()" src="images/placeholder.gif"></td> 
                         </tr>
                         <tr>
-                            <td><img class="songPics" src="images/placeholder.gif"></td>
-                            <td><img class="songPics" src="images/placeholder.gif"></td> 
+                            <td><img class="pickGenre" onclick="storeGenre()" src="images/placeholder.gif"></td>
+                            <td><img class="pickGenre" onclick="storeGenre()" src="images/placeholder.gif"></td> 
                             
                         </tr>
                     </table>
@@ -80,10 +80,19 @@
                 <div id = "game"> 
                     <h2> De game komt hier </h2>
                     <br> <br>
+                    <img id = "gameSong" src="images/placeholder.gif">
                     <h3> Score:</h3>
+                    <p id="score"> 0 </p>
+                </div>
+
+                <div id = "resultScreen"> 
+                    <br> <br>
+                    <img id = "gameSong" src="images/placeholder.gif">
+                    <h3> Jouw Score:</h3>
                     <p id="score"> 0 </p>
                 </div>
         </div>
         <script type="text/javascript" src='js/main.js'></script> 
+        <script type="text/javascript" src='js/api.js'></script> 
     </body>
 </html>

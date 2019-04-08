@@ -119,10 +119,14 @@ table{
     margin-right: 30%;
 }
 
-.songPics{
+.pickGenre{
     width: 200px; height: 200px;
     float: left;
     padding: 5px;
+}
+
+#gameSong{
+    width: 200px; height: 200px;
 }
 
 /* Media Queries */

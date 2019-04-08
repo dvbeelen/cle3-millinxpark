@@ -1,4 +1,4 @@
-let gameScore = 690;
+let gameScore = 0;
 
 //Slider navigation
 //This function brings the user on click from the startscreen to the screen where they can pick a song.
@@ -21,6 +21,11 @@ function nextToSongs() {
         while (currentDiv.firstChild) currentDiv.firstChild.remove();
     
         currentDiv.appendChild(clone);
+        upScore();
     }
 
-    
+setInterval(function upScore() {
+    gameScore = gameScore + 150;
+    document.getElementById("score").innerHTML = gameScore;
+  }, 5000);
+

@@ -1,8 +1,11 @@
-//API connection
-import Unsplash, { toJson } from "unsplash-js";
+const imageWidth = 200; //your desired image width in pixels
+const imageHeight = 200; //desired image height in pixels
+const collectionID = 4576130; //the collection ID from the original url
+const image = document.getElementsByClassName("pickGenre");
 
-const unsplash = new Unsplash({
-  applicationId: "3fea5ddfe37456e9398935c41ba6ec2d556d70aea53af1ddc80279ae9c1f8a1f",
-  secret: "3477463452e420e5b643184c1c2cdd2835464b892ab7bb2eccb9cd4754a1e7e4"
-});
+fetch(`https://source.unsplash.com/collection/${collectionID}/${imageWidth}x${imageHeight}`)
+ .then(data => changeSongPic(data)) 
+ function changeSongPic(data){
+  console.log(data.url)
+ }
 
