@@ -125,7 +125,22 @@ button{
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+}
+
+a:link{
+    color: #ECECEC;
+}
+
+a:visited{
+    color: #ECECEC;
+}
+
+a:hover{
+    color: #0B0C10;
+}
+
+a:active{
+    color: #F3D250;
 }
 
 table{
@@ -145,10 +160,17 @@ table{
     width: 200px; height: 200px;
 }
 
+#songSelect p{
+    text-align: center;
+}
+
 /* Media Queries */
 @media(max-width: 1024px){
     .tutorial_pic{
         display: none;
+    }
+    .pickGenre{
+        width: 150px; height: 150px;
     }
 }
 
@@ -173,9 +195,12 @@ table{
         height: auto;
     }
     p{
-        width: 75%;
-        margin-left: 12.5%;
-        margin-right: 12.5%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .pickGenre{
+        width: 100px; height: 100px;
     }
 }
 
