@@ -2,7 +2,7 @@ const imageWidth = 200; //your desired image width in pixels
 const imageHeight = 200; //desired image height in pixel
 const collectionID = 4576130; //the collection ID from the original url
 const images = document.getElementsByClassName("pickGenre");
-const genres = ["music,classical", "music,rock", "music,hiphop", "music,videogames"]; //Search terms 
+const genres = ["music,classical", "music,rock", "music,hiphop", "music,games"]; //Search terms 
 let x = 0
 
 //Deze code zou voor ieder array-item een afbeelding op moeten halen uit de API en dan vervolgens de src van de pickGenre afbeeldingen
