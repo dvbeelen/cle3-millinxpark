@@ -3,19 +3,21 @@ const imageHeight = 200; //desired image height in pixel
 const collectionID = 4576130; //the collection ID from the original url
 const images = document.getElementsByClassName("pickGenre");
 const genres = ["music,classical", "music,rock", "music,hiphop", "music,videogames"]; //Search terms 
+let x = 0
 
 //Deze code zou voor ieder array-item een afbeelding op moeten halen uit de API en dan vervolgens de src van de pickGenre afbeeldingen
 //moeten aanpassen, maar ik krijg of 4x dezelfde image of helemaal niets, wat doe ik fout?
 
-for (i=0; i<genres.length; i++){
+for (i=0; i<4; i++){
 fetch(`https://source.unsplash.com/${imageWidth}x${imageHeight}/?${genres[i]}`)
  .then(data => changeSongPic(data))
-function changeSongPic(data){
-       images.src = data.url;
-       console.log(data);
-  }
- }
+}
 
+function changeSongPic(data){
+    
+    images[x].src = data.url;  
+    x++
+}
 
 // fetch(`https://source.unsplash.com/${imageWidth}x${imageHeight}/?${genres[0]}`)
 //     .then(data => changeSongPic(data))
