@@ -2,7 +2,7 @@
 Application created for a school assignment. Project focuses on establishing contact with an API. 
 
 # How it works
-App was supposed to go with an interactive object. App would make it possible for users to pick a musical genre via pictures and keep score. 
+This application was supposed to go with an interactive object. It would make it possible for users to pick a musical genre via a selection screen with pictures and keep a score. 
 
 # Functionalities
 - Connects to the Unsplash-API and recieves images. 
